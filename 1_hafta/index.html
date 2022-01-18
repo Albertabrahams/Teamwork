@@ -40,9 +40,34 @@
                 </select>
             </div>
             <div class="input-box">
-                
+                <p>Would you recommend Clarusway to a friend?</p>
+                <input type="radio" name="radio" id="yes" value="Definately, Yes" checked><label for="yes">Definately, Yes</label><br>
+                <input type="radio" name="radio" id="maybe" value="Maybe"><label for="maybe">Maybe</label><br>
+                <input type="radio" name="radio" id="notsure" value="Not sure"><label for="notsure">Not sure</label><br>
+                <input type="radio" name="radio" id="no" value="Definately, No"><label for="no">Definately, No</label><br>
             </div>
-
+            <div class="input-box">
+                <p>What is your favorite feature of Clarusway?</p>
+                <select name="option" id="dropdown2">
+                    <option disabled selected value>Select an option</option></option>
+                    <option value="Courses">Courses</option>
+                    <option value="Projects">Projects</option>
+                    <option value="Community">Community</option>
+                    <option value="Mentors">Mentors</option>
+                </select>
+            </div>
+            <div class="input-box">
+                <p>What would you like to see improved? (Check all that apply)</p>
+                <input type="checkbox" name="check" id="first"><label for="first"></label>Front-end Projects<br>
+                <input type="checkbox" name="check" id="second"><label for="second"></label>Back-end Projects<br>
+                <input type="checkbox" name="check" id="third"><label for="third"></label>Data Science<br>
+                <input type="checkbox" name="check" id="fourth"><label for="fourth"></label>Additional Courses<br>
+            </div>
+            <div class="input-box">
+                <p>Any comments or suggestions?</p>
+                <textarea name="comment" id="comments" cols="20" rows="3" placeholder="Enter your comment here...Thanxs for your commets...."></textarea>
+                <button type="submit" id="submit">Submit</button>
+            </div>
 
         </form>
         
