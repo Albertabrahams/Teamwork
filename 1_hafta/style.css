@@ -46,7 +46,9 @@ textarea {
 button {
   border: none;
 }
-
+.input-box{
+    margin-top: 10px;
+}
 
 .header {
   padding: 0 0.625rem;
