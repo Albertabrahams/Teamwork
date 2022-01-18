@@ -1,20 +1,11 @@
 
-*{
+body{
     margin: auto;
-    padding left: 50%;;
+    width: 50%;
     box-sizing: border-box;
 }
 
-body{
-    margin: auto;
-    width: 70%;
-    
-}
-
-#container{
-    width: 1240px;
    
-}
 
 h1 {
     font-weight: 400;
@@ -26,6 +17,11 @@ h1 {
   p {
     font-size: 1.5rem;
   }
+section{
+    background-color: gray;
+}
+
+
 
 h1,
 p {
