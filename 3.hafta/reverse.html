@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="reverse.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -13,11 +12,19 @@
         // let b = a.split("").reverse().join("")
         // console.log(b);
 
-        let b = "";
-        for(let i=a.length-1; i>=0; i--){
-        b += a[i]
+
+        function terso(text){
+        let newtext = "";
+
+        for(let i=text.length-1; i>=0; i--){
+        newtext += text[i]
         }
-        console.log(b)
+        return newtext
+    }
+
+        console.log(terso(a))
+    
+
     </script>
 </body>
 </html>
